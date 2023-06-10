@@ -38,7 +38,6 @@ namespace ProjectoFinalMojix
         public void WhenISendAPOSTRequestToTheAPIEndpointWithTheProductData()
         {
             response = client.ExecutePost(request);
-            Console.WriteLine(response.Content);
         }
 
         [Then(@"I should receive a successfully response")]
