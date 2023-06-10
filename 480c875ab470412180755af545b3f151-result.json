@@ -1,0 +1,113 @@
+{
+  "uuid": "f44086dfb5e04f988fb9271e6e53e54b",
+  "historyId": "CheckIfAllProductsHaveImg",
+  "fullName": "CheckIfAllProductsHaveImg",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az620-447"
+    },
+    {
+      "name": "feature",
+      "value": "CheckIfAllProductsHaveImg"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "CheckIfAllProductsHaveImg",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a valid API endpoint to retrieve all products",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367324593,
+      "stop": 1686367324594
+    },
+    {
+      "name": "When  I send a GET request to the endpoint",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367324594,
+      "stop": 1686367324753
+    },
+    {
+      "name": "Then  I should receive a successful response with content",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367324753,
+      "stop": 1686367324754
+    },
+    {
+      "name": "And  the response should contain a list of products",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367324754,
+      "stop": 1686367324769
+    },
+    {
+      "name": "And  each product in the list should have an image",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367324769,
+      "stop": 1686367324791
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686367324593,
+  "stop": 1686367324791
+}
