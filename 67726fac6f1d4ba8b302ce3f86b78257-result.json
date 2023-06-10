@@ -1,0 +1,83 @@
+{
+  "uuid": "4659d322973a4174acfedb675efad139",
+  "historyId": "Get all categories",
+  "fullName": "Get all categories",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az395-431"
+    },
+    {
+      "name": "feature",
+      "value": "GetCategories"
+    },
+    {
+      "name": "tag",
+      "value": "AllCategories"
+    }
+  ],
+  "links": [],
+  "name": "Get all categories",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a valid API endpoint for retrieving categories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686366337134,
+      "stop": 1686366337135
+    },
+    {
+      "name": "When  I send a GET request to the API endpoint",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686366337135,
+      "stop": 1686366337210
+    },
+    {
+      "name": "Then  I should receive a successful response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686366337210,
+      "stop": 1686366337211
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686366337134,
+  "stop": 1686366337211
+}

@@ -1,0 +1,87 @@
+{
+  "uuid": "85b62fa3d59d49c48907e712c5911767",
+  "historyId": "Login",
+  "fullName": "Login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az395-431"
+    },
+    {
+      "name": "feature",
+      "value": "AuthenticationAPI"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "tag",
+      "value": "Authentication"
+    }
+  ],
+  "links": [],
+  "name": "Login",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A value user \"admin\" and value password \"admin\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686366336263,
+      "stop": 1686366336314
+    },
+    {
+      "name": "When  I send a request to login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686366336315,
+      "stop": 1686366336316
+    },
+    {
+      "name": "Then  I expect a token value",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686366336316,
+      "stop": 1686366336906
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686366336255,
+  "stop": 1686366336908
+}
