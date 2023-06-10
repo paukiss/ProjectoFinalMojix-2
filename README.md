@@ -33,4 +33,4 @@ The report provides an overview of the results of the automated tests and helps 
 
 This test report is a valuable tool for assessing the quality and status of the project, providing detailed documentation of the results obtained from the automated tests.
 
-Get Fun!! 🤓💻
+Get Fun Automating!! 🤓💻
