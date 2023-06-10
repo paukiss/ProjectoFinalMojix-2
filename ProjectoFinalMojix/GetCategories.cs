@@ -6,7 +6,7 @@ using TechTalk.SpecFlow;
 namespace ProjectoFinalMojix
 {
     [Binding]
-    public class GetPostsStepDefinitions
+    public class GetCategories
     {
         RestClient client = new RestClient(Utils.baseURL);
         RestRequest request = new RestRequest();
@@ -16,9 +16,6 @@ namespace ProjectoFinalMojix
         public void GivenIHaveAValidAPIEndpointForRetrievingCategories()
         {
             request = new RestRequest("/api/category", Method.Get);
-            Console.WriteLine("vemos22");
-            Console.WriteLine(Utils.token);
-            Console.WriteLine("vemos");
         }
 
         [When(@"I send a GET request to the API endpoint")]
