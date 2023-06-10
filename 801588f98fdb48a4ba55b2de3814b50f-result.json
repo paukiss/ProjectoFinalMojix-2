@@ -1,0 +1,124 @@
+{
+  "uuid": "c6ace9c532df4e609ae41380acf53a6d",
+  "historyId": "Post a product",
+  "fullName": "Post a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az180-145"
+    },
+    {
+      "name": "feature",
+      "value": "PostProduct"
+    }
+  ],
+  "links": [],
+  "name": "Post a product",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a valid API endpoint for creating a product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367396578,
+      "stop": 1686367396579
+    },
+    {
+      "name": "And  I have the necessary data to create a product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367396579,
+      "stop": 1686367396580
+    },
+    {
+      "name": "When  I send a POST request to the API endpoint with the product data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367396580,
+      "stop": 1686367396602
+    },
+    {
+      "name": "Then  I should receive a successfully response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367396602,
+      "stop": 1686367396602
+    },
+    {
+      "name": "And  the response should contain the created product details",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367396602,
+      "stop": 1686367396609
+    },
+    {
+      "name": "And  the product should be successfully created in the system",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686367396609,
+      "stop": 1686367396613
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686367396578,
+  "stop": 1686367396613
+}
